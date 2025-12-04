@@ -122,6 +122,4 @@ java -cp bin HelloWorld
 
 ---
 
-This README gives you a clean, reproducible setup guide plus a diagram that makes your workflow transparent.  
 
-Would you like me to also scaffold the **`src/` and `bin/` directories with a starter HelloWorld.java** so you can commit them alongside this README for a complete recruiter‑ready repo?
