@@ -121,5 +121,86 @@ java -cp bin HelloWorld
 ```
 
 ---
+📂 Project Structure
+java-wsl2-vscode/
+├── src/
+│   └── HelloWorld.java
+├── bin/
+└── README.md
+
+📝 src/HelloWorld.java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, WSL2 + Java!");
+    }
+}
+
+▶️ Compile & Run
+
+From the project root:
+# Compile into bin/
+javac -d bin src/HelloWorld.java
+
+# Run from bin/
+java -cp bin HelloWorld
+
+
+Here’s a clean .gitignore tailored for your Java + VS Code + WSL2 setup. This will keep your repo tidy by ignoring compiled files, IDE metadata, and temporary build artifacts.
+📄 .gitignore
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# VS Code settings
+.vscode/
+
+# WSL2 temp files
+*.swp
+*.swo
+
+# Build output directories
+bin/
+out/
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Eclipse/IntelliJ IDEA project files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
 
 
